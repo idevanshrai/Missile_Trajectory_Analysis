@@ -10,7 +10,7 @@ The provided Java program simulates projectile motion, taking user inputs for in
    - The program calculates various trajectory parameters, including flight time, highest point, distance traveled, and error.
    - Error is calculated as the difference between the distance traveled and the target distance.
 
-3. **First Attempt:**
+3. First Attempt:
    - Trajectory data is reported for the first attempt using the `trajectoryDataReport` function.
    - Error analysis is performed using the `errorAnalysis` function, providing feedback on whether the shot went beyond or fell short of the target.
 
