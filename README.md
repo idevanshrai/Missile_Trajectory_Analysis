@@ -3,7 +3,7 @@ This project simulates the process of repeated attempts to hit a target with a p
 
 
 We constructted a Java program that
-• can determine the trajectory data of a projectile for a given initial velocity and a launch angle, in particular for an initial choice of a 45-degree angle;
+• Can determine the trajectory data of a projectile for a given initial velocity and a launch angle, in particular for an initial choice of a 45-degree angle;
 can check whether the initial attempt is a launch angle of 45 degrees. If the first attempt is not at the launch angle of 45 degrees, the window as shown in Figure 5a displays the information, and then the program exits. Then restarted with a launch angle of 45;
 • can check if the shot of the initial attempt falls short of the target with less than -1 foot (such as target missed by -1.1, -25.0, -154.55, etc.); if so, the process terminated and then restarted with an increased initial velocity. Note that for any initial velocity, the longest range is attained if the launch angle is 45 degrees;
 • can determine the error of a shot (error = projectile range - distance to target);
