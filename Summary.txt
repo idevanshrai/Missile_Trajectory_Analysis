@@ -1,0 +1,53 @@
+The provided Java program simulates projectile motion, taking user inputs for initial velocity, distance to target, and launch angle. It allows up to five attempts to hit the target, providing trajectory data and error analysis for each attempt. Below is a detailed breakdown of the program:
+
+### Program Overview:
+
+1. **Input Section:**
+   - The user is prompted to enter the distance to the target, initial velocity, and launch angle.
+   - If the launch angle is not 45 degrees on the first attempt, an error message is displayed, and the program terminates.
+
+2. **Calculation Section:**
+   - The program calculates various trajectory parameters, including flight time, highest point, distance traveled, and error.
+   - Error is calculated as the difference between the distance traveled and the target distance.
+
+3. **First Attempt:**
+   - Trajectory data is reported for the first attempt using the `trajectoryDataReport` function.
+   - Error analysis is performed using the `errorAnalysis` function, providing feedback on whether the shot went beyond or fell short of the target.
+
+4. **Subsequent Attempts (2nd to 5th):**
+   - For each attempt, the user is prompted to re-enter the launch angle.
+   - Trajectory parameters and error are recalculated for each attempt.
+   - If the error is within 1 foot, the program terminates, indicating a successful hit.
+   - If the error is greater than 1 foot after the fifth attempt, the program displays an error message with information on the best shot's miss.
+
+### Functions:
+
+1. **`reenterLaunchAngle` Function:**
+   - Takes an attempt name as a parameter and prompts the user to re-enter the launch angle.
+
+2. **`trajectoryDataReport` Function:**
+   - Takes trajectory parameters and error as input and displays a formatted message with the trajectory data using `JOptionPane`.
+
+3. **`errorAnalysis` Function:**
+   - Takes the attempt name, error, and launch angle as input.
+   - Provides feedback to the user about whether the shot went beyond or fell short of the target.
+
+### Termination Conditions:
+   - If the first attempt launch angle is not 45 degrees, the program terminates.
+   - If the error is within 1 foot, the program terminates with a success message.
+   - After the fifth attempt, if the best shot misses by more than 1 foot, the program terminates with a message.
+
+### Output:
+   - Trajectory data and error analysis are displayed using `JOptionPane`.
+   - Success messages or error messages are displayed based on the termination conditions.
+
+### Improvements/Considerations:
+   - The program uses `JOptionPane` for user interaction, making it suitable for simple GUI-based applications.
+   - The code structure is sequential, and the trajectory calculations are repeated for each attempt, which could be optimized.
+   - The program terminates after the fifth attempt, even if the error is within an acceptable range.
+   - Additional comments are provided for clarity.
+
+### Conclusion:
+   - The program provides a simple simulation of projectile motion, engaging the user in multiple attempts to hit a target.
+   - It combines mathematical calculations with user interaction to create an interactive and informative experience.
+   - The use of functions enhances modularity and readability, making the code easier to understand and maintain.
