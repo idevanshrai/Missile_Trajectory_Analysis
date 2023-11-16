@@ -14,7 +14,7 @@ The provided Java program simulates projectile motion, taking user inputs for in
    - Trajectory data is reported for the first attempt using the `trajectoryDataReport` function.
    - Error analysis is performed using the `errorAnalysis` function, providing feedback on whether the shot went beyond or fell short of the target.
 
-4. **Subsequent Attempts (2nd to 5th):**
+4. Subsequent Attempts (2nd to 5th):
    - For each attempt, the user is prompted to re-enter the launch angle.
    - Trajectory parameters and error are recalculated for each attempt.
    - If the error is within 1 foot, the program terminates, indicating a successful hit.
@@ -22,13 +22,13 @@ The provided Java program simulates projectile motion, taking user inputs for in
 
 ### Functions:
 
-1. **`reenterLaunchAngle` Function:**
+1. `reenterLaunchAngle` Function:
    - Takes an attempt name as a parameter and prompts the user to re-enter the launch angle.
 
-2. **`trajectoryDataReport` Function:**
+2. `trajectoryDataReport` Function:
    - Takes trajectory parameters and error as input and displays a formatted message with the trajectory data using `JOptionPane`.
 
-3. **`errorAnalysis` Function:**
+3. `errorAnalysis` Function:
    - Takes the attempt name, error, and launch angle as input.
    - Provides feedback to the user about whether the shot went beyond or fell short of the target.
 
