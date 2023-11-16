@@ -6,7 +6,7 @@ The provided Java program simulates projectile motion, taking user inputs for in
    - The user is prompted to enter the distance to the target, initial velocity, and launch angle.
    - If the launch angle is not 45 degrees on the first attempt, an error message is displayed, and the program terminates.
 
-2. **Calculation Section:**
+2. Calculation Section:
    - The program calculates various trajectory parameters, including flight time, highest point, distance traveled, and error.
    - Error is calculated as the difference between the distance traveled and the target distance.
 
