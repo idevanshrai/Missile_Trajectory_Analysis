@@ -1,7 +1,5 @@
 /*
 * Prakhar Verma
-* CS 16000-01 – 03, Fall Semester 2023 
-* Project 1: Compute the Projectile Motion
 *
 * This program simulates projectile motion given an initial velocity, distance to target, 
 * and launch angle. It calculates and displays trajectory data. If the first shot misses, 
