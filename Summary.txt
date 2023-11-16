@@ -2,7 +2,7 @@ The provided Java program simulates projectile motion, taking user inputs for in
 
 ### Program Overview:
 
-1. **Input Section:**
+1. **Input Section:
    - The user is prompted to enter the distance to the target, initial velocity, and launch angle.
    - If the launch angle is not 45 degrees on the first attempt, an error message is displayed, and the program terminates.
 
